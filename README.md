@@ -1,4 +1,4 @@
-# Discord-PureBlack
+# PureBlack
 <img src="icon.png" height="130" title="Icon" alt="">
 PureBlack theme makes your discord darker...
 

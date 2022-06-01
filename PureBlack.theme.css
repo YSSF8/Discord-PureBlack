@@ -1,0 +1,55 @@
+/**
+ * @name PureBlack
+ * @author YSSF
+ * @authorId 926605635213226044
+ * @version 1.0.0 - "beta"
+ * @description Makes discord darker
+ * @source https://github.com/YSSF8/Discord-PureBlack
+*/
+
+:root {
+	--background-primary: #000;
+	--background-secondary: #000;
+	--background-secondary-alt: #000;
+	--channeltextarea-background: #18191c;
+	--background-tertiary: #000;
+	--modal-background: #000;
+	--modal-footer-background: #000;
+	--brand-experiment: #18191c;
+	--brand-experiment-500: #18191c;
+	--brand-experiment-400: #18191c;
+	--background-modifier-selected: #21232699;
+}
+
+button:hover {
+	background: #202122 !important;
+}
+
+.header-1c1AhF, .templatesList-uohY49, .theme-light .footerSeparator-VzAYwb, .subtitle-3m-md1, .title-1_TkpU, .defaultColor-HXu-5n, .container-x8Y1ix {
+	color: #fff !important;
+	background: #000;
+}
+
+.text-PdAsFQ, .closeIcon-11LhXr {
+	color: #fff;
+}
+
+.footerButton-24QPis, .container-2nx-BQ, .input-2XRLou {
+	background: #18191c !important;
+}
+
+div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+	background: #000;
+}
+
+.searchTitle-1qceKb, .userInfoSectionHeader-2mYYun, .lookLink-15mFoz:hover {
+	background: none !important;
+}
+
+.colorDefault-CDqZdO:hover {
+	background: #000;
+}
+
+.theme-dark .checkbox-f1HnKB {
+	transition: .3s !important;
+}

@@ -4,7 +4,7 @@ PureBlack theme makes your discord darker...
 
 Please join my <a href="https://discord.gg/FzVe6A98S2">discord server</a>.
 
-### How to install
+### How to install:
 * install <a href="https://betterdiscord.app">BetterDiscord</a>.
 * Download <a href="PureBlack.theme.css">PureBlack</a>.
 * Go to <a href="https://discord.com">discord</a>, then click <b>settings</b>.

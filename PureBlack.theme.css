@@ -2,7 +2,7 @@
  * @name PureBlack
  * @author YSSF (Youssef-x_x#4318)
  * @authorId 926605635213226044
- * @version 1.0.5
+ * @version 1.0.6
  * @description Makes discord darker
  * @source https://github.com/YSSF8/Discord-PureBlack
 */
@@ -24,8 +24,12 @@
 	--font-primary: 'Nunito', sans-serif;
 }
 
-button:hover {
+.lookFilled-yCfaCM.colorGreen-3y-Z79, .option-2eIyOn:hover, button:hover {
 	background: #202122 !important;
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79:hover {
+	background: #18191c !important;
 }
 
 .header-1c1AhF, .templatesList-uohY49, .theme-light .footerSeparator-VzAYwb, .subtitle-3m-md1, .title-1_TkpU, .defaultColor-HXu-5n, .container-x8Y1ix, .lookInverted-2mDUMi.colorBrand-I6CyqQ {
@@ -37,19 +41,23 @@ button:hover {
 	color: #fff;
 }
 
-.footerButton-24QPis, .container-2nx-BQ, .input-2XRLou, .bd-button, .bd-switch-body, .colorable-3rVGna.primaryDark-2UJt1G:hover, .colorable-3rVGna.red-3T8maV:hover {
+.footerButton-24QPis, .container-2nx-BQ, .input-2XRLou, .bd-button, .bd-switch-body, .upload-vLbqu-, .uploadContainer-TCg-Ji, .inner-2pOSmK, .bd-select-options, .bd-search-wrapper, .searchBar-3TnChZ .searchBarComponent-3N7dCG, .layout-Zs52SM, .option-2eIyOn, .inner-1NoIT5, .searchBar-jGtisZ, .colorable-3rVGna.primaryDark-2UJt1G:hover, #bd-pub-button:hover, .colorable-3rVGna.red-3T8maV:hover {
 	background: #18191c !important;
 }
 
-div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .theme-dark .message-G6O-Wv, .colorDefault-CDqZdO:hover {
-	background: #000;
+div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .theme-dark .message-G6O-Wv, .theme-dark .addGamePopout-2SKNIV, .colorDefault-CDqZdO:hover {
+	background: #000 !important;
 }
 
 div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"] {
 	border-radius: 8px;
 }
 
-.searchTitle-1qceKb, .userInfoSectionHeader-2mYYun, .eyebrow-Ejf06y, .hero-1aNo0v .heroHeader-1A0uOZ, .lookLink-15mFoz:hover, .rtcConnectionStatusLabel-Nodt6L:hover {
+.layout-Zs52SM {
+	border-radius: 3px;
+}
+
+.searchTitle-1qceKb, .userInfoSectionHeader-2mYYun, .eyebrow-Ejf06y, .hero-1aNo0v .heroHeader-1A0uOZ, .defaultColor-24IHKz, .lookLink-15mFoz:hover, .rtcConnectionStatusLabel-Nodt6L:hover {
 	background: none !important;
 }
 
@@ -61,9 +69,9 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 	color: #12bdba !important;
 }
 
-.section-2zQkYM, .messagesPopoutWrap-3zryHW, .theme-dark .root-g14mjS, .container-2ebMPP {
+.section-2zQkYM, .messagesPopoutWrap-3zryHW, .theme-dark .root-g14mjS, .container-2ebMPP, .floating-window.resizable, .quickswitcher-pKcM9U, .theme-dark .addGamePopout-2SKNIV, .drawerSizingWrapper-1txdWG {
 	border-radius: 8px;
-	box-shadow: 0 0 4px #fff;
+	box-shadow: 0 0 3.5px #fff;
 }
 
 .colorable-3rVGna.white-11auuQ:hover {
@@ -78,6 +86,11 @@ svg[viewBox="0 0 12 12"] {
 	filter: grayscale(1);
 }
 
+.theme-dark .keybindShortcut-3zF1P9 .key-N5VmHN {
+	transition: .2s;
+	background: #18191c;
+}
+
 .homeIcon-r0w4ny path {
 	fill: transparent;
 }
@@ -88,6 +101,6 @@ svg[viewBox="0 0 12 12"] {
 	min-height: 50px;
 }
 
-.theme-dark .checkbox-f1HnKB {
+.theme-dark .checkbox-f1HnKB, .note-3M15gE textarea {
 	transition: .3s !important;
 }

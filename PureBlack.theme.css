@@ -2,10 +2,12 @@
  * @name PureBlack
  * @author YSSF
  * @authorId 926605635213226044
- * @version 1.0.1 - "beta"
+ * @version 1.0.2
  * @description Makes discord darker
  * @source https://github.com/YSSF8/Discord-PureBlack
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 :root {
 	--background-primary: #000;
@@ -19,6 +21,8 @@
 	--brand-experiment-500: #18191c;
 	--brand-experiment-400: #18191c;
 	--background-modifier-selected: #21232699;
+	--font-primary: 'Nunito', sans-serif;
+    --font-display: var(--font-primary);
 }
 
 button:hover {
@@ -34,11 +38,11 @@ button:hover {
 	color: #fff;
 }
 
-.footerButton-24QPis, .container-2nx-BQ, .input-2XRLou {
+.footerButton-24QPis, .container-2nx-BQ, .input-2XRLou, .bd-button, .bd-switch-body {
 	background: #18191c !important;
 }
 
-div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .colorDefault-CDqZdO:hover {
+div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .colorDefault-CDqZdO:hover {
 	background: #000;
 }
 
@@ -46,7 +50,7 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 	border-radius: 8px;
 }
 
-.searchTitle-1qceKb, .userInfoSectionHeader-2mYYun, .lookLink-15mFoz:hover, .rtcConnectionStatusLabel-Nodt6L:hover {
+.searchTitle-1qceKb, .userInfoSectionHeader-2mYYun, .eyebrow-Ejf06y, .lookLink-15mFoz:hover, .rtcConnectionStatusLabel-Nodt6L:hover {
 	background: none !important;
 }
 
@@ -58,7 +62,7 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 	color: #12bdba !important;
 }
 
-.section-2zQkYM {
+.section-2zQkYM, .messagesPopoutWrap-3zryHW, .theme-dark .root-g14mjS, .container-2ebMPP {
 	border-radius: 8px;
 	box-shadow: 0 0 4px #fff;
 }
@@ -69,6 +73,16 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 
 .colorable-3rVGna.primaryDark-2UJt1G:hover, .colorable-3rVGna.red-3T8maV:hover {
 	background: #18191c !important;
+}
+
+.homeIcon-r0w4ny path {
+	fill: transparent;
+}
+
+.homeIcon-r0w4ny {
+	background: url('https://github.com/YSSF8/Discord-PureBlack/raw/main/icon.png') center/cover no-repeat;
+	min-width: 50px;
+	min-height: 50px;
 }
 
 .theme-dark .checkbox-f1HnKB {

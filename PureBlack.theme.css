@@ -2,7 +2,7 @@
  * @name PureBlack
  * @author YSSF (Youssef-x_x#4318)
  * @authorId 926605635213226044
- * @version 1.0.4
+ * @version 1.0.5
  * @description Makes discord darker
  * @source https://github.com/YSSF8/Discord-PureBlack
 */
@@ -28,7 +28,7 @@ button:hover {
 	background: #202122 !important;
 }
 
-.header-1c1AhF, .templatesList-uohY49, .theme-light .footerSeparator-VzAYwb, .subtitle-3m-md1, .title-1_TkpU, .defaultColor-HXu-5n, .container-x8Y1ix {
+.header-1c1AhF, .templatesList-uohY49, .theme-light .footerSeparator-VzAYwb, .subtitle-3m-md1, .title-1_TkpU, .defaultColor-HXu-5n, .container-x8Y1ix, .lookInverted-2mDUMi.colorBrand-I6CyqQ {
 	color: #fff !important;
 	background: #000;
 }
@@ -68,6 +68,14 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 
 .colorable-3rVGna.white-11auuQ:hover {
 	background: #e7e6e3 !important;
+}
+
+svg[viewBox="0 0 12 12"] {
+	border-radius: 8px;
+}
+
+.icon-1KCy88 {
+	filter: grayscale(1);
 }
 
 .homeIcon-r0w4ny path {

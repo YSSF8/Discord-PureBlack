@@ -1,8 +1,8 @@
 /**
  * @name PureBlack
- * @author YSSF
+ * @author YSSF (Youssef-x_x#4318)
  * @authorId 926605635213226044
- * @version 1.0.3
+ * @version 1.0.4
  * @description Makes discord darker
  * @source https://github.com/YSSF8/Discord-PureBlack
 */
@@ -22,7 +22,6 @@
 	--brand-experiment-400: #18191c;
 	--background-modifier-selected: #21232699;
 	--font-primary: 'Nunito', sans-serif;
-        --font-display: var(--font-primary);
 }
 
 button:hover {
@@ -38,11 +37,11 @@ button:hover {
 	color: #fff;
 }
 
-.footerButton-24QPis, .container-2nx-BQ, .input-2XRLou, .bd-button, .bd-switch-body {
+.footerButton-24QPis, .container-2nx-BQ, .input-2XRLou, .bd-button, .bd-switch-body, .colorable-3rVGna.primaryDark-2UJt1G:hover, .colorable-3rVGna.red-3T8maV:hover {
 	background: #18191c !important;
 }
 
-div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .colorDefault-CDqZdO:hover {
+div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .theme-dark .message-G6O-Wv, .colorDefault-CDqZdO:hover {
 	background: #000;
 }
 
@@ -50,7 +49,7 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 	border-radius: 8px;
 }
 
-.searchTitle-1qceKb, .userInfoSectionHeader-2mYYun, .eyebrow-Ejf06y, .lookLink-15mFoz:hover, .rtcConnectionStatusLabel-Nodt6L:hover {
+.searchTitle-1qceKb, .userInfoSectionHeader-2mYYun, .eyebrow-Ejf06y, .hero-1aNo0v .heroHeader-1A0uOZ, .lookLink-15mFoz:hover, .rtcConnectionStatusLabel-Nodt6L:hover {
 	background: none !important;
 }
 
@@ -69,10 +68,6 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 
 .colorable-3rVGna.white-11auuQ:hover {
 	background: #e7e6e3 !important;
-}
-
-.colorable-3rVGna.primaryDark-2UJt1G:hover, .colorable-3rVGna.red-3T8maV:hover {
-	background: #18191c !important;
 }
 
 .homeIcon-r0w4ny path {

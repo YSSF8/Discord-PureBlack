@@ -2,7 +2,7 @@
  * @name PureBlack
  * @author YSSF (Youssef-x_x#4318)
  * @authorId 926605635213226044
- * @version 1.0.5
+ * @version 1.0.6
  * @description Makes discord darker
  * @source https://github.com/YSSF8/Discord-PureBlack
 */
@@ -76,6 +76,10 @@ svg[viewBox="0 0 12 12"] {
 
 .icon-1KCy88 {
 	filter: grayscale(1);
+}
+
+foreignObject[mask="url(#311d9e09-d388-487c-816a-51b8e2121113)"] {
+	border-radius: 100px;
 }
 
 .homeIcon-r0w4ny path {

@@ -22,7 +22,7 @@
 	--brand-experiment-400: #18191c;
 	--background-modifier-selected: #21232699;
 	--font-primary: 'Nunito', sans-serif;
-    --font-display: var(--font-primary);
+        --font-display: var(--font-primary);
 }
 
 button:hover {

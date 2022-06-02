@@ -2,7 +2,7 @@
  * @name PureBlack
  * @author YSSF
  * @authorId 926605635213226044
- * @version 1.0.0 - "beta"
+ * @version 1.0.1 - "beta"
  * @description Makes discord darker
  * @source https://github.com/YSSF8/Discord-PureBlack
 */
@@ -38,16 +38,37 @@ button:hover {
 	background: #18191c !important;
 }
 
-div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .colorDefault-CDqZdO:hover {
 	background: #000;
 }
 
-.searchTitle-1qceKb, .userInfoSectionHeader-2mYYun, .lookLink-15mFoz:hover {
+div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"] {
+	border-radius: 8px;
+}
+
+.searchTitle-1qceKb, .userInfoSectionHeader-2mYYun, .lookLink-15mFoz:hover, .rtcConnectionStatusLabel-Nodt6L:hover {
 	background: none !important;
 }
 
-.colorDefault-CDqZdO:hover {
-	background: #000;
+.colorable-3rVGna.white-11auuQ {
+	filter: invert(1);
+}
+
+.slash-2yrR11 {
+	color: #12bdba !important;
+}
+
+.section-2zQkYM {
+	border-radius: 8px;
+	box-shadow: 0 0 4px #fff;
+}
+
+.colorable-3rVGna.white-11auuQ:hover {
+	background: #e7e6e3 !important;
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G:hover, .colorable-3rVGna.red-3T8maV:hover {
+	background: #18191c !important;
 }
 
 .theme-dark .checkbox-f1HnKB {

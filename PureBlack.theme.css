@@ -2,7 +2,7 @@
  * @name PureBlack
  * @author YSSF (Youssef-x_x#4318)
  * @authorId 926605635213226044
- * @version 1.0.6
+ * @version 1.0.7
  * @description Makes discord darker
  * @source https://github.com/YSSF8/Discord-PureBlack
 */
@@ -24,11 +24,11 @@
 	--font-primary: 'Nunito', sans-serif;
 }
 
-.lookFilled-yCfaCM.colorGreen-3y-Z79, .option-2eIyOn:hover, button:hover {
+.lookFilled-yCfaCM.colorGreen-3y-Z79, .applicationInstallButton-1-58qm, .option-2eIyOn:hover, button:hover {
 	background: #202122 !important;
 }
 
-.lookFilled-yCfaCM.colorGreen-3y-Z79:hover {
+.lookFilled-yCfaCM.colorGreen-3y-Z79:hover, .applicationInstallButton-1-58qm:hover {
 	background: #18191c !important;
 }
 
@@ -37,15 +37,15 @@
 	background: #000;
 }
 
-.text-PdAsFQ, .closeIcon-11LhXr {
-	color: #fff;
+.text-PdAsFQ, .closeIcon-11LhXr, .icon-2xnN2Y {
+	color: #fff !important;
 }
 
 .footerButton-24QPis, .container-2nx-BQ, .input-2XRLou, .bd-button, .bd-switch-body, .upload-vLbqu-, .uploadContainer-TCg-Ji, .inner-2pOSmK, .bd-select-options, .bd-search-wrapper, .searchBar-3TnChZ .searchBarComponent-3N7dCG, .layout-Zs52SM, .option-2eIyOn, .inner-1NoIT5, .searchBar-jGtisZ, .colorable-3rVGna.primaryDark-2UJt1G:hover, #bd-pub-button:hover, .colorable-3rVGna.red-3T8maV:hover {
 	background: #18191c !important;
 }
 
-div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .theme-dark .message-G6O-Wv, .theme-dark .addGamePopout-2SKNIV, .colorDefault-CDqZdO:hover {
+div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .theme-dark .message-G6O-Wv, .theme-dark .addGamePopout-2SKNIV, .theme-dark .elevationHigh-3KUiqj, .scroller-1bVxF5, .autocompleteInner-y1mjDl, .noiseCancellationPopout-2-e5Xz, .theme-dark .popoutList-10IFAa, .colorDefault-CDqZdO:hover {
 	background: #000 !important;
 }
 
@@ -69,7 +69,7 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 	color: #12bdba !important;
 }
 
-.section-2zQkYM, .messagesPopoutWrap-3zryHW, .theme-dark .root-g14mjS, .container-2ebMPP, .floating-window.resizable, .quickswitcher-pKcM9U, .theme-dark .addGamePopout-2SKNIV, .drawerSizingWrapper-1txdWG {
+.section-2zQkYM, .messagesPopoutWrap-3zryHW, .theme-dark .root-g14mjS, .container-2ebMPP, .floating-window.resizable, .quickswitcher-pKcM9U, .theme-dark .addGamePopout-2SKNIV, .drawerSizingWrapper-1txdWG, .theme-dark .elevationHigh-3KUiqj, .scroller-1bVxF5, .autocompleteAttached-bt_md-, .noiseCancellationPopout-2-e5Xz, .theme-dark .popoutList-10IFAa {
 	border-radius: 8px;
 	box-shadow: 0 0 3.5px #fff;
 }

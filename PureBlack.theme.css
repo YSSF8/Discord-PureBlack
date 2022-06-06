@@ -2,8 +2,8 @@
  * @name PureBlack
  * @author YSSF (Youssef-x_x#4318)
  * @authorId 926605635213226044
- * @version 1.0.7
- * @description Makes discord darker
+ * @version 1.0.8
+ * @description Makes discord darker, and rounded
  * @source https://github.com/YSSF8/Discord-PureBlack
 */
 
@@ -45,7 +45,7 @@
 	background: #18191c !important;
 }
 
-div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .theme-dark .message-G6O-Wv, .theme-dark .addGamePopout-2SKNIV, .theme-dark .elevationHigh-3KUiqj, .scroller-1bVxF5, .autocompleteInner-y1mjDl, .noiseCancellationPopout-2-e5Xz, .theme-dark .popoutList-10IFAa, .colorDefault-CDqZdO:hover {
+div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .theme-dark .message-G6O-Wv, .theme-dark .addGamePopout-2SKNIV, .theme-dark .elevationHigh-3KUiqj, .scroller-1bVxF5, .autocompleteInner-y1mjDl, .noiseCancellationPopout-2-e5Xz, .theme-dark .popoutList-10IFAa, .rowContainer-3t7486, .colorDefault-CDqZdO:hover {
 	background: #000 !important;
 }
 
@@ -76,6 +76,14 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 
 .colorable-3rVGna.white-11auuQ:hover {
 	background: #e7e6e3 !important;
+}
+
+.rowContainer-3t7486 {
+	border: 1px solid #191c1f;
+}
+
+.defaultColor-24IHKz.text-xs-normal-3SiVjE.rowText-3MQqQi, .text-md-normal-304U3g.subtitle-1cc8Nz, .text-sm-normal-3Zj3Iv.skip-2hTIXL, .text-md-normal-304U3g.subtitle-bIoUVX, .text-xs-normal-3SiVjE.guidelines-FvqqF2 {
+	color: #bbb !important;
 }
 
 svg[viewBox="0 0 12 12"] {

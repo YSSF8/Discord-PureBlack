@@ -2,7 +2,7 @@
  * @name PureBlack
  * @author YSSF (𝒟𝒜𝑅𝒦-𝒮𝐼𝒟𝐸 ✘!#4318)
  * @authorId 926605635213226044
- * @version 1.1.2
+ * @version 1.1.4
  * @description Makes discord darker, and rounded
  * @source https://github.com/YSSF8/Discord-PureBlack
 */
@@ -41,7 +41,7 @@
 	color: #fff !important;
 }
 
-.footerButton-24QPis, .container-2nx-BQ, .input-2XRLou, .bd-button, .bd-switch-body, .upload-vLbqu-, .uploadContainer-TCg-Ji, .inner-2pOSmK, .bd-select-options, .bd-search-wrapper, .searchBar-3TnChZ .searchBarComponent-3N7dCG, .layout-Zs52SM, .option-2eIyOn, .inner-1NoIT5, .searchBar-jGtisZ, .lookFilled-yCfaCM.colorBrandNew-2-gGsS, .lookFilled-yCfaCM.colorBrand-I6CyqQ:active, .colorable-3rVGna.primaryDark-2UJt1G:hover, #bd-pub-button:hover, .colorable-3rVGna.red-3T8maV:hover {
+.footerButton-24QPis, .container-2nx-BQ, .input-2XRLou, .bd-button, .bd-switch-body, .upload-vLbqu-, .uploadContainer-TCg-Ji, .inner-2pOSmK, .bd-select-options, .bd-search-wrapper, .searchBar-3TnChZ .searchBarComponent-3N7dCG, .layout-Zs52SM, .option-2eIyOn, .inner-1NoIT5, .searchBar-jGtisZ, .lookFilled-yCfaCM.colorBrandNew-2-gGsS, .lookFilled-yCfaCM.colorBrand-I6CyqQ:active, .colorable-3rVGna.primaryDark-2UJt1G:hover, #bd-pub-button:hover, .colorable-3rVGna.red-3T8maV:hover, .textarea-_59yqs:focus {
 	background: #18191c !important;
 }
 
@@ -56,11 +56,11 @@
 	background: #cc6f00;
 }
 
-.search-25t1e9 {
+.search-25t1e9, .check-3HZJs4 {
 	filter: invert(1);
 }
 
-div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .theme-dark .message-G6O-Wv, .theme-dark .addGamePopout-2SKNIV, .theme-dark .elevationHigh-3KUiqj, .scroller-1bVxF5, .autocompleteInner-y1mjDl, .noiseCancellationPopout-2-e5Xz, .theme-dark .popoutList-10IFAa, .rowContainer-3t7486, .scroller-Q9d9Di, .theme-dark.authBox-1HR6Ha, .navRow-dG-XX8, .bd-select .bd-select-options, .theme-dark .quickSelectPopout-2F0PXw, .jumpToPresentBar-1cEnH0, .newMessagesBar-1hF-9G, .colorDefault-CDqZdO:hover {
+div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .theme-dark .message-G6O-Wv, .theme-dark .addGamePopout-2SKNIV, .theme-dark .elevationHigh-3KUiqj, .scroller-1bVxF5, .autocompleteInner-y1mjDl, .noiseCancellationPopout-2-e5Xz, .theme-dark .popoutList-10IFAa, .rowContainer-3t7486, .scroller-Q9d9Di, .theme-dark.authBox-1HR6Ha, .navRow-dG-XX8, .bd-select .bd-select-options, .theme-dark .quickSelectPopout-2F0PXw, .jumpToPresentBar-1cEnH0, .newMessagesBar-1hF-9G, .bodyInnerWrapper-2bQs1k, .userPopout-2j1gM4, .footer-3naVBw, .wrapper-1NNaWG, .colorDefault-CDqZdO:hover {
 	background: #000 !important;
 }
 
@@ -88,7 +88,7 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 	color: #12bdba !important;
 }
 
-.section-2zQkYM, .messagesPopoutWrap-3zryHW, .theme-dark .root-g14mjS, .container-2ebMPP, .floating-window.resizable, .quickswitcher-pKcM9U, .theme-dark .addGamePopout-2SKNIV, .drawerSizingWrapper-1txdWG, .theme-dark .elevationHigh-3KUiqj, .scroller-1bVxF5, .autocompleteAttached-bt_md-, .noiseCancellationPopout-2-e5Xz, .theme-dark .popoutList-10IFAa, .bd-select .bd-select-options, .theme-dark .quickSelectPopout-2F0PXw, .jumpToPresentBar-1cEnH0, .newMessagesBar-1hF-9G {
+.section-2zQkYM, .messagesPopoutWrap-3zryHW, .theme-dark .root-g14mjS, .container-2ebMPP, .floating-window.resizable, .quickswitcher-pKcM9U, .theme-dark .addGamePopout-2SKNIV, .drawerSizingWrapper-1txdWG, .theme-dark .elevationHigh-3KUiqj, .scroller-1bVxF5, .autocompleteAttached-bt_md-, .noiseCancellationPopout-2-e5Xz, .theme-dark .popoutList-10IFAa, .bd-select .bd-select-options, .theme-dark .quickSelectPopout-2F0PXw, .jumpToPresentBar-1cEnH0, .newMessagesBar-1hF-9G, .menu-2-eHMB, .userPopout-2j1gM4, .outerWrapper-3UdjNj {
 	border-radius: 8px;
 	box-shadow: 0 0 3.5px #fff;
 }
@@ -121,6 +121,10 @@ svg[viewBox="0 0 12 12"] {
 .input-2g-os5 {
 	background: #18191c;
 	color: #fff;
+}
+
+.sendIcon-1HcEzu {
+	color: #b8b8b8;
 }
 
 circle[fill="#5865f2"] {

@@ -2,8 +2,6 @@
 <img src="icon.png" height="130" title="Icon" alt="">
 PureBlack theme makes your discord darker...
 
-Please join my <a href="https://discord.gg/FzVe6A98S2">discord server</a>.
-
 ### Screenshot:
 <img src="Screenshot.png" title="Screenshot" alt="">
 <img src="Screenshot2.png" title="Screenshot" alt="">

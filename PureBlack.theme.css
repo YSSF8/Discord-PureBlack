@@ -2,7 +2,7 @@
  * @name PureBlack
  * @author YSSF (𝒟𝒜𝑅𝒦-𝒮𝐼𝒟𝐸 ✘!#4318)
  * @authorId 926605635213226044
- * @version 1.1.8
+ * @version 1.1.9
  * @description Makes discord darker, and rounded
  * @source https://github.com/YSSF8/Discord-PureBlack
 */
@@ -60,7 +60,7 @@
 	filter: invert(1);
 }
 
-div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .theme-dark .message-G6O-Wv, .theme-dark .addGamePopout-2SKNIV, .theme-dark .elevationHigh-3KUiqj, .scroller-1bVxF5, .autocompleteInner-y1mjDl, .noiseCancellationPopout-2-e5Xz, .theme-dark .popoutList-10IFAa, .rowContainer-3t7486, .scroller-Q9d9Di, .theme-dark.authBox-1HR6Ha, .navRow-dG-XX8, .bd-select .bd-select-options, .theme-dark .quickSelectPopout-2F0PXw, .jumpToPresentBar-1cEnH0, .newMessagesBar-1hF-9G, .bodyInnerWrapper-2bQs1k, .userPopout-2j1gM4, .footer-3naVBw, .wrapper-1NNaWG, .languageSelector-2e1IuO, .auto-2K3UW5.scrollerBase-_bVAAt.fade-1R6FHN, .emojiSection-3QtaWO, .perksModalContentWrapper-3RHugb, .colorDefault-CDqZdO:hover {
+div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .theme-dark .message-G6O-Wv, .theme-dark .addGamePopout-2SKNIV, .theme-dark .elevationHigh-3KUiqj, .scroller-1bVxF5, .autocompleteInner-y1mjDl, .noiseCancellationPopout-2-e5Xz, .theme-dark .popoutList-10IFAa, .rowContainer-3t7486, .scroller-Q9d9Di, .theme-dark.authBox-1HR6Ha, .navRow-dG-XX8, .bd-select .bd-select-options, .theme-dark .quickSelectPopout-2F0PXw, .jumpToPresentBar-1cEnH0, .newMessagesBar-1hF-9G, .bodyInnerWrapper-2bQs1k, .userPopout-2j1gM4, .footer-3naVBw, .wrapper-1NNaWG, .languageSelector-2e1IuO, .auto-2K3UW5.scrollerBase-_bVAAt.fade-1R6FHN, .emojiSection-3QtaWO, .perksModalContentWrapper-3RHugb, .contentWrapper-3vHNP2, .inspector-DFKXwB, .list-obNEuP, .unicodeShortcut-3N8oDe, .topSection-13QKHs, .infoScroller-1QMpon, .input-2g-os5, .standardStickerShortcut-ObSns3, .upload-vLbqu-, .uploadContainer-TCg-Ji, .scrollableContainer-15eg7h, .colorDefault-CDqZdO:hover {
 	background: #000 !important;
 }
 
@@ -90,7 +90,12 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 
 .section-2zQkYM, .messagesPopoutWrap-3zryHW, .theme-dark .root-g14mjS, .container-2ebMPP, .floating-window.resizable, .quickswitcher-pKcM9U, .theme-dark .addGamePopout-2SKNIV, .drawerSizingWrapper-1txdWG, .theme-dark .elevationHigh-3KUiqj, .scroller-1bVxF5, .autocompleteAttached-bt_md-, .noiseCancellationPopout-2-e5Xz, .theme-dark .popoutList-10IFAa, .bd-select .bd-select-options, .theme-dark .quickSelectPopout-2F0PXw, .jumpToPresentBar-1cEnH0, .newMessagesBar-1hF-9G, .menu-2-eHMB, .userPopout-2j1gM4, .outerWrapper-3UdjNj, .container-2O1UgZ, .emojiPicker-6YCk8a, .languageSelector-2e1IuO, .popoutContainer-2wbmiM {
 	border-radius: 8px;
-	box-shadow: 0 0 3.5px #fff;
+	box-shadow: 0 0 3.5px #fff !important;
+}
+
+.clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 {
+	border-radius: 5px;
+	background: #121212 !important;
 }
 
 .colorable-3rVGna.white-11auuQ:hover {
@@ -103,6 +108,10 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 
 .defaultColor-24IHKz.text-xs-normal-3SiVjE.rowText-3MQqQi, .text-md-normal-304U3g.subtitle-1cc8Nz, .text-sm-normal-3Zj3Iv.skip-2hTIXL, .text-md-normal-304U3g.subtitle-bIoUVX, .text-xs-normal-3SiVjE.guidelines-FvqqF2, .optionHeader-27AHfD {
 	color: #bbb !important;
+}
+
+.channelTextArea-1FufC0{
+	border: 1px solid #232529;
 }
 
 svg[viewBox="0 0 12 12"] {

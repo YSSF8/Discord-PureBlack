@@ -1,8 +1,8 @@
 /**
  * @name PureBlack
- * @author YSSF (𝒟𝒜𝑅𝒦-𝒮𝐼𝒟𝐸 ✘!#4318)
+ * @author YSSF
  * @authorId 926605635213226044
- * @version 1.2.6
+ * @version 1.2.7
  * @description Makes discord darker, and rounded
  * @source https://github.com/YSSF8/Discord-PureBlack
 */
@@ -28,7 +28,7 @@
 	background: #202122 !important;
 }
 
-.lookFilled-yCfaCM.colorGreen-3y-Z79:hover, .applicationInstallButton-1-58qm:hover{
+.lookFilled-yCfaCM.colorGreen-3y-Z79:hover, .applicationInstallButton-1-58qm:hover, .gameNameInput-2wbDJ9:hover, .navButtonActive-1EqC5l, .navButtonActive-1EqC5l:hover {
 	background: #18191c !important;
 }
 
@@ -60,11 +60,11 @@
 	filter: invert(1);
 }
 
-div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .theme-dark .message-G6O-Wv, .theme-dark .addGamePopout-2SKNIV, .theme-dark .elevationHigh-3KUiqj, .scroller-1bVxF5, .autocompleteInner-y1mjDl, .noiseCancellationPopout-2-e5Xz, .theme-dark .popoutList-10IFAa, .rowContainer-3t7486, .scroller-Q9d9Di, .theme-dark.authBox-1HR6Ha, .navRow-dG-XX8, .bd-select .bd-select-options, .theme-dark .quickSelectPopout-2F0PXw, .jumpToPresentBar-1cEnH0, .newMessagesBar-1hF-9G, .bodyInnerWrapper-2bQs1k, .userPopout-2j1gM4, .footer-3naVBw, .wrapper-1NNaWG, .languageSelector-2e1IuO, .auto-2K3UW5.scrollerBase-_bVAAt.fade-1R6FHN, .emojiSection-3QtaWO, .perksModalContentWrapper-3RHugb, .contentWrapper-3vHNP2, .inspector-DFKXwB, .list-obNEuP, .unicodeShortcut-3N8oDe, .topSection-13QKHs, .infoScroller-1QMpon, .input-2g-os5, .standardStickerShortcut-ObSns3, .upload-vLbqu-, .uploadContainer-TCg-Ji, .scrollableContainer-15eg7h, .role-2TIOKu, .container-2O1UgZ, .scrollContent-_1I-44, .guildIcon-2SUGiq, .option-2eIyOn, .popout-1KHNAq.popoutPositionTop-1GenHR, .lookFilled-1GseHa.select-1Ia3hD, .popout-1KHNAq, .theme-dark .uploadModal-2ie9O_, .uploadModal-2ie9O_ .footer-VCsJQY, .small-23Atuv, .body-1Ukv50, .listWrapper-2nHLP8, .header-11eigE, .scroller-2MALzE, .browser-mnQ1T7, .header-3_zmOb, .recentMentionsPopout-2bI1ZN, .messageContainer-3VTXBC, .channelHeader-DFRX8q, .header-145e10, .messages-23can0, .messagesPopout-eVzQcI, .header-1w9Q93, .footer-5ji8u1, .messageGroupWrapper-1jf_7C, .footer-GXWBBp, .toggleExpandSection-1710zV, .codeView-12LUIl, .textContainer-36wgKK, .attachment-1PZZB2, .gridContainer-1cF_Ic, .guildSection-2Zyzy8, .modalSubtitle-2lx7qk, .modalTitle-2skSKy, .premiumPromo-1eKAIB, .reactors-1VXca7, .scroller-2GkvCq, .homeContainer-r4Hvv1, .popout-TdhJ6Z, .children-3xh0VB:after, .colorDefault-CDqZdO:hover {
+div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], .theme-dark .pageWrapper-2PwDoS, .theme-dark .container-2cd8Mz, .container-ZMc96U.themed-Hp1KC_, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .colorable-3rVGna.primaryDark-2UJt1G, .section-2zQkYM, .wrapper-1gVUIN.minimum-fXpVNc, .theme-dark .message-G6O-Wv, .theme-dark .addGamePopout-2SKNIV, .theme-dark .elevationHigh-3KUiqj, .scroller-1bVxF5, .autocompleteInner-y1mjDl, .noiseCancellationPopout-2-e5Xz, .theme-dark .popoutList-10IFAa, .rowContainer-3t7486, .scroller-Q9d9Di, .theme-dark.authBox-1HR6Ha, .navRow-dG-XX8, .bd-select .bd-select-options, .theme-dark .quickSelectPopout-2F0PXw, .jumpToPresentBar-1cEnH0, .newMessagesBar-1hF-9G, .bodyInnerWrapper-2bQs1k, .userPopout-2j1gM4, .footer-3naVBw, .wrapper-1NNaWG, .languageSelector-2e1IuO, .auto-2K3UW5.scrollerBase-_bVAAt.fade-1R6FHN, .emojiSection-3QtaWO, .perksModalContentWrapper-3RHugb, .contentWrapper-3vHNP2, .inspector-DFKXwB, .list-obNEuP, .unicodeShortcut-3N8oDe, .topSection-13QKHs, .infoScroller-1QMpon, .input-2g-os5, .standardStickerShortcut-ObSns3, .upload-vLbqu-, .uploadContainer-TCg-Ji, .scrollableContainer-15eg7h, .role-2TIOKu, .container-2O1UgZ, .scrollContent-_1I-44, .guildIcon-2SUGiq, .option-2eIyOn, .popout-1KHNAq.popoutPositionTop-1GenHR, .lookFilled-1GseHa.select-1Ia3hD, .popout-1KHNAq, .theme-dark .uploadModal-2ie9O_, .uploadModal-2ie9O_ .footer-VCsJQY, .small-23Atuv, .body-1Ukv50, .listWrapper-2nHLP8, .header-11eigE, .scroller-2MALzE, .browser-mnQ1T7, .header-3_zmOb, .recentMentionsPopout-2bI1ZN, .messageContainer-3VTXBC, .channelHeader-DFRX8q, .header-145e10, .messages-23can0, .messagesPopout-eVzQcI, .header-1w9Q93, .footer-5ji8u1, .messageGroupWrapper-1jf_7C, .footer-GXWBBp, .toggleExpandSection-1710zV, .codeView-12LUIl, .textContainer-36wgKK, .attachment-1PZZB2, .gridContainer-1cF_Ic, .guildSection-2Zyzy8, .modalSubtitle-2lx7qk, .modalTitle-2skSKy, .premiumPromo-1eKAIB, .reactors-1VXca7, .scroller-2GkvCq, .homeContainer-r4Hvv1, .popout-TdhJ6Z, .children-3xh0VB:after, .container-2sjPya>*, .colorDefault-CDqZdO:hover {
 	background: #000 !important;
 }
 
-div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], div[style="position: relative;width: 440px;height: 558px;overflow: hidden;"], .scroller-Q9d9Di, .header-1zd7se, .theme-dark.authBox-1HR6Ha, .navRow-dG-XX8, .artworkActionable-hSZZCK, .assetsLargeImageSpotify-17ME3M, .modalTextContainer-1FUO2W, .modalTextContainer-1FUO2W pre, .footer-GXWBBp, .toggleExpandSection-1710zV, .image-36HiZc, .modal-3Crloo, .imageZoom-3yLCXY, .lottieCanvas-c2HE82, .pngImage-1vIgLy, .icon-HW4tZ-, .spoilerContainer-3wsC0k.hidden-3B-Rum, .sourceThumbnail-ERDcZE, .wrapper-1FP9YQ, .barButtonMain-2GIx4o:hover, .span-3lFnWr:hover, .barButtonAlt-TQoCdZ:hover {
+div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], div[style="position: relative;width: 440px;height: 558px;overflow: hidden;"], .scroller-Q9d9Di, .header-1zd7se, .theme-dark.authBox-1HR6Ha, .navRow-dG-XX8, .artworkActionable-hSZZCK, .assetsLargeImageSpotify-17ME3M, .modalTextContainer-1FUO2W, .modalTextContainer-1FUO2W pre, .footer-GXWBBp, .toggleExpandSection-1710zV, .image-36HiZc, .modal-3Crloo, .imageZoom-3yLCXY, .lottieCanvas-c2HE82, .pngImage-1vIgLy, .icon-HW4tZ-, .spoilerContainer-3wsC0k.hidden-3B-Rum, .sourceThumbnail-ERDcZE, .wrapper-1FP9YQ, .container-rr3Ruk, .barButtonMain-2GIx4o:hover, .span-3lFnWr:hover, .barButtonAlt-TQoCdZ:hover {
 	border-radius: 8px;
 }
 
@@ -128,7 +128,7 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 	border: 1px solid #191c1f;
 }
 
-.popout-1KHNAq.popoutPositionTop-1GenHR, .tierHeaderLocked-30MLlO, .tierHeaderContent-2SPBAA, .modalTitle-2skSKy {
+.popout-1KHNAq.popoutPositionTop-1GenHR, .tierHeaderLocked-30MLlO, .tierHeaderContent-2SPBAA, .modalTitle-2skSKy, .textContainer-36wgKK {
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 }
@@ -137,7 +137,7 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 	color: #bbb !important;
 }
 
-.channelTextArea-1FufC0{
+.channelTextArea-1FufC0, .container-rr3Ruk {
 	border: 1px solid #232529;
 }
 
@@ -174,6 +174,18 @@ circle[fill="#5865f2"] {
 .theme-dark .keybindShortcut-3zF1P9 .key-N5VmHN {
 	transition: .2s;
 	background: #18191c;
+}
+
+.copyButton-2o2Hlg {
+	margin: 0 5px;
+}
+
+.footer-GXWBBp, .toggleExpandSection-1710zV {
+	border-radius: 0 0 8px 8px;
+}
+
+.textContainer-36wgKK {
+	border-bottom: 1px solid #232529;
 }
 
 .homeIcon-r0w4ny path {

@@ -2,7 +2,7 @@
  * @name PureBlack
  * @author YSSF
  * @authorId 926605635213226044
- * @version 1.2.7
+ * @version 1.2.8
  * @description Makes discord darker, and rounded
  * @source https://github.com/YSSF8/Discord-PureBlack
 */
@@ -41,7 +41,7 @@
 	color: #fff !important;
 }
 
-.footerButton-24QPis, .container-2nx-BQ, .input-2XRLou, .bd-button, .bd-switch-body, .upload-vLbqu-, .uploadContainer-TCg-Ji, .inner-2pOSmK, .bd-select-options, .bd-search-wrapper, .searchBar-3TnChZ .searchBarComponent-3N7dCG, .layout-Zs52SM, .inner-1NoIT5, .searchBar-jGtisZ, .lookFilled-yCfaCM.colorBrandNew-2-gGsS, .inputDefault-3FGxgL.input-2g-os5, .progressBar-1T6LYX.small-1bZsRQ.animating-2CraY5, .lookFilled-yCfaCM.colorBrand-I6CyqQ:active, .colorable-3rVGna.primaryDark-2UJt1G:hover, #bd-pub-button:hover, .colorable-3rVGna.red-3T8maV:hover, .textarea-_59yqs:focus {
+.footerButton-24QPis, .container-2nx-BQ, .input-2XRLou, .bd-button, .bd-switch-body, .upload-vLbqu-, .uploadContainer-TCg-Ji, .inner-2pOSmK, .bd-select-options, .bd-search-wrapper, .searchBar-3TnChZ .searchBarComponent-3N7dCG, .layout-Zs52SM, .inner-1NoIT5, .searchBar-jGtisZ, .lookFilled-yCfaCM.colorBrandNew-2-gGsS, .inputDefault-3FGxgL.input-2g-os5, .progressBar-1T6LYX.small-1bZsRQ.animating-2CraY5, .small-1P4vlo, .addFriendInputWrapper-kkoSV9, .unread-2wipsx, .lookFilled-yCfaCM.colorBrand-I6CyqQ:active, .colorable-3rVGna.primaryDark-2UJt1G:hover, #bd-pub-button:hover, .colorable-3rVGna.red-3T8maV:hover, .textarea-_59yqs:focus {
 	background: #18191c !important;
 }
 
@@ -56,7 +56,7 @@
 	background: #cc6f00;
 }
 
-.search-25t1e9, .check-3HZJs4 {
+.search-25t1e9, .check-3HZJs4, .search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz {
 	filter: invert(1);
 }
 
@@ -64,7 +64,7 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 	background: #000 !important;
 }
 
-div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], div[style="position: relative;width: 440px;height: 558px;overflow: hidden;"], .scroller-Q9d9Di, .header-1zd7se, .theme-dark.authBox-1HR6Ha, .navRow-dG-XX8, .artworkActionable-hSZZCK, .assetsLargeImageSpotify-17ME3M, .modalTextContainer-1FUO2W, .modalTextContainer-1FUO2W pre, .footer-GXWBBp, .toggleExpandSection-1710zV, .image-36HiZc, .modal-3Crloo, .imageZoom-3yLCXY, .lottieCanvas-c2HE82, .pngImage-1vIgLy, .icon-HW4tZ-, .spoilerContainer-3wsC0k.hidden-3B-Rum, .sourceThumbnail-ERDcZE, .wrapper-1FP9YQ, .container-rr3Ruk, .barButtonMain-2GIx4o:hover, .span-3lFnWr:hover, .barButtonAlt-TQoCdZ:hover {
+div[style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"], div[style="position: relative;width: 440px;height: 558px;overflow: hidden;"], .scroller-Q9d9Di, .header-1zd7se, .theme-dark.authBox-1HR6Ha, .navRow-dG-XX8, .artworkActionable-hSZZCK, .assetsLargeImageSpotify-17ME3M, .modalTextContainer-1FUO2W, .modalTextContainer-1FUO2W pre, .footer-GXWBBp, .toggleExpandSection-1710zV, .image-36HiZc, .modal-3Crloo, .imageZoom-3yLCXY, .lottieCanvas-c2HE82, .pngImage-1vIgLy, .icon-HW4tZ-, .spoilerContainer-3wsC0k.hidden-3B-Rum, .sourceThumbnail-ERDcZE, .wrapper-1FP9YQ, .container-rr3Ruk, .bioTextArea-dDGOeC>div, .barButtonMain-2GIx4o:hover, .span-3lFnWr:hover, .barButtonAlt-TQoCdZ:hover {
 	border-radius: 8px;
 }
 
@@ -124,7 +124,7 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 	background: #e7e6e3 !important;
 }
 
-.rowContainer-3t7486 {
+.rowContainer-3t7486, .bd-addon-list .bd-addon-card, .bioTextArea-dDGOeC>div {
 	border: 1px solid #191c1f;
 }
 
@@ -133,7 +133,7 @@ div[style="position: absolute; flex-direction: column; backface-visibility: hidd
 	border-top-right-radius: 8px;
 }
 
-.defaultColor-24IHKz.text-xs-normal-3SiVjE.rowText-3MQqQi, .text-md-normal-304U3g.subtitle-1cc8Nz, .text-sm-normal-3Zj3Iv.skip-2hTIXL, .text-md-normal-304U3g.subtitle-bIoUVX, .text-xs-normal-3SiVjE.guidelines-FvqqF2, .optionHeader-27AHfD {
+.defaultColor-24IHKz.text-xs-normal-3SiVjE.rowText-3MQqQi, .text-md-normal-304U3g.subtitle-1cc8Nz, .text-sm-normal-3Zj3Iv.skip-2hTIXL, .text-md-normal-304U3g.subtitle-bIoUVX, .text-xs-normal-3SiVjE.guidelines-FvqqF2, .optionHeader-27AHfD, .search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz {
 	color: #bbb !important;
 }
 

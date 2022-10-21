@@ -2,8 +2,8 @@
  * @name PureBlack
  * @author YSSF
  * @authorId 926605635213226044
- * @version 1.2.9
- * @description Makes discord darker, and rounded
+ * @version 1.3.0
+ * @description Makes discord darker, and better rounded corners
  * @source https://github.com/YSSF8/Discord-PureBlack
 */
 
@@ -178,6 +178,10 @@ circle[fill="#5865f2"] {
 
 .copyButton-2o2Hlg {
 	margin: 0 5px;
+}
+
+h2.defaultColor-HXu-5n {
+	background: none !important;
 }
 
 .footer-GXWBBp, .toggleExpandSection-1710zV {

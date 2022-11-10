@@ -2,6 +2,13 @@
 <img src="icon.png" height="130" title="Icon" alt="">
 PureBlack theme makes your discord darker...
 
+### Downloads
+#### Download with Git
+```
+git clone https://github.com/YSSF8/Discord-PureBlack/
+```
+or <a href="https://github.com/YSSF8/Discord-PureBlack/archive/refs/heads/main.zip">download directly</a>.
+
 ### Screenshot:
 <img src="Screenshot.png" title="Screenshot" alt="">
 <img src="Screenshot2.png" title="Screenshot" alt="">
